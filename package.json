@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
   },
   "homepage": "https://github.com/maselelele/Arduino-Morse-Code#readme",
   "dependencies": {
-    "johnny-five": "^2.0.0"
+    "johnny-five": "^2.0.0",
+    "nodemon": "^2.0.6"
   }
 }
